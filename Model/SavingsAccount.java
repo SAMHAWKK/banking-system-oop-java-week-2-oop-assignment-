@@ -4,11 +4,11 @@ public class SavingsAccount extends Account {
     protected double interestRate;
 
     public SavingsAccount(String accountHolder, double balance, double interestRate) {
-        super(accountHolder, balance); // super()
-        this.interestRate = interestRate; // this
+        super(accountHolder, balance); 
+        this.interestRate = interestRate; 
     }
 
-    // Method overriding
+    
     @Override
     public void display() {
         super.display();
